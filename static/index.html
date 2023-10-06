@@ -8,12 +8,16 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     
     <style>
-      pre {
+      .pre-container {
+        position: relative;
+      }
+      
+      .pre-container pre {
           background: #EEE;
           padding: 19px;
       }
       
-      pre button.root-139 {
+      .pre-container button {
           position: absolute;
           top: 0;
           right: 0;
@@ -28,6 +32,18 @@
     <script>
       jQuery(document).ready(function($) {
         setInterval(function () {
+
+          jQuery('pre').each(function() {
+            var pre_elem = $(this);
+            if (!pre_elem.parent().hasClass('pre-container')) {
+              pre_elem.wrap('<div class="pre-container">');
+              
+              pre_elem.parent().append('<button class="root-139" onclick="copyToClipboard(this);">Copy to clipboard</button>');
+              
+            }
+          });
+
+
           console.log('Hello from .ready()');
         }, 1000);
         
