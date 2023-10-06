@@ -130,14 +130,6 @@ const Layout = () => {
                     </div>
                 </Stack>
             </Dialog>
-    
-            <script
-              dangerouslySetInnerHTML={{ __html:
-                ` function copyToClipboard() {
-                  alert("Hello from script tag");
-                }`
-              }}
-            />
         </div>
     );
 };
