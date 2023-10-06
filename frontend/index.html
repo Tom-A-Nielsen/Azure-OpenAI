@@ -15,6 +15,7 @@
       .pre-container pre {
           background: #EEE;
           padding: 19px;
+          border-radius: 5px;
       }
       
       .pre-container button {
@@ -40,12 +41,23 @@
               
             }
           });
-
-
-          console.log('Hello from .ready()');
         }, 1000);
         
       });
+      
+      function copyToClipboard(button) {
+          
+          var pre_elem = jQuery(button).parent().find('pre').get(0);
+        
+          var range = document.createRange();
+          range.selectNode(pre_elem);
+          window.getSelection().removeAllRanges(); // clear current selection
+          window.getSelection().addRange(range); // to select text
+          document.execCommand("copy");
+          window.getSelection().removeAllRanges();// to deselect
+        
+        
+      }
     </script>
   </body>
 </html>
