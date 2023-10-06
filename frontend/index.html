@@ -5,9 +5,18 @@
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Azure AI</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/index.tsx"></script>
+    <script>
+      jQuery(document).ready(function($) {
+        setInterval(function () {
+          console.log('Hello from .ready()');
+        }, 1000);
+        
+      });
+    </script>
   </body>
 </html>
