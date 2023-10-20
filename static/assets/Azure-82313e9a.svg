@@ -1,0 +1,25 @@
+<svg id="_TRACINGS_" data-name="[TRACINGS]" xmlns="http://www.w3.org/2000/svg" width="1200.232" height="246.688" viewBox="0 0 5060 1040">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #262626;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g id="L">
+    <path id="B" class="cls-1" d="M4337,0h189V868h534v172H4337V0Z"/>
+  </g>
+  <g id="B-2" data-name="B">
+    <path id="B-3" data-name="B" class="cls-1" d="M3973,491s190,80.3,190,266-175.92,283-308,283H3302V0h528c134.91,0,289,96.071,289,260S3973,491,3973,491ZM3767,163H3489V426h278s159-2.7,159-131S3767,163,3767,163ZM3489,580V877h314.62S3970,873.947,3970,729.065,3803.62,580,3803.62,580H3489Z"/>
+  </g>
+  <g id="A">
+    <path id="A_1" data-name="A 1" class="cls-1" d="M2272,1040H2061L2497,0h210l435,1040H2932L2602,250,2418,689h282l65,154H2354Z"/>
+  </g>
+  <g id="N">
+    <path id="N_1" data-name="N 1" class="cls-1" d="M1164,1040H975V0h189l549,731V0h189V1040H1712L1164,309v731Z"/>
+  </g>
+  <g id="E">
+    <path id="E_1" data-name="E 1" class="cls-1" d="M782,868v172H0V0H782V172H188V424H726V596l-538,1V868H782Z"/>
+  </g>
+</svg>
